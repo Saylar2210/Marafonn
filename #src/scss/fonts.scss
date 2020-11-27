@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'Ceremonious';
+	src: url('../fonts/ceremonious_one.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/ceremonious_one.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/ceremonious_one.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/ceremonious_one.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/ceremonious_one.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/ceremonious_one.svg#ceremonious_one') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+@font-face {
+   font-family:'BravoRG';
+   src: url('BravoRG Regular.eot');
+  src: url('BravoRG Regular.eot?#iefix') format('embedded-opentype'),
+     url('BravoRG Regular.woff2') format('woff2'),
+     url('BravoRG Regular.woff') format('woff'),
+     url('BravoRG Regular.svg#BravoRG Regular') format('svg');
+   font-weight: 400;
+   font-style: normal;
+   font-stretch: normal;
+   unicode-range: U+0020-00BB;
+}
+
+
+@font-face {
+   font-family: 'fonteteg';
+       
+       src:    url('https://nomail.com.ua/files/eot/e7a920668d8dfdc839fbc2d42b387193.eot?#iefix') format('embedded-opentype'),
+               url('https://nomail.com.ua/files/woff/e7a920668d8dfdc839fbc2d42b387193.woff') format('woff'),
+               url('https://nomail.com.ua/files/woff2/e7a920668d8dfdc839fbc2d42b387193.woff2') format('woff2');
+   }
+   @font-face {
+      font-family: 'fontetmed';
+          
+          src:    url('https://nomail.com.ua/files/eot/bf203db276a8122597b58a4e3d063877.eot?#iefix') format('embedded-opentype'),
+                  url('https://nomail.com.ua/files/woff/bf203db276a8122597b58a4e3d063877.woff') format('woff'),
+                  url('https://nomail.com.ua/files/woff2/bf203db276a8122597b58a4e3d063877.woff2') format('woff2');
+      }
