@@ -100,8 +100,7 @@ position: relative;
 		align-items: flex-start;
 	}
 }
-		&__body {
-		}
+	
 		.title__item {
 			
 			margin: 0px 0px 18px/40px * 1em 0px;
@@ -112,20 +111,7 @@ position: relative;
 			
 			
 		}
-		.title__main {
-			font-size: 35px;
-			text-transform: uppercase;
-			font-weight: 500;
-			font-family: 'fonteteg';
-			letter-spacing: 5.25px;
-
-			&_regular{
-				font-weight: 40;
-			}
-			&_w{
-				color: #fff;	
-			}
-		}
+		
 		.item-main-slider__text {
 			max-width: 700px;
 			flex:1 1 auto;
@@ -240,5 +226,61 @@ position: relative;
 	}
 	100%{
 		transform: rotate(360deg);
+	}
+}
+.title{
+	text-align: center;
+}
+.title__item {
+			
+	margin: 0px 0px 18px/40px * 1em 0px;
+	font-size: 40px;
+	font-family: 'Ceremonious';
+	color: rgb(187, 156, 102);
+	
+	
+	
+}
+.title__main {
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-family: 'fonteteg';
+	letter-spacing: 5.25px;
+
+	&_regular{
+		font-weight: 40;
+	}
+	&_w{
+		color: #fff;	
+	}
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////
+.lost {
+padding: 85px 0 63px 0;
+	&__container {
+	}
+
+	&__header {
+	}
+}
+
+.title {
+
+	&__item {
+	}
+
+	&__main {
+
+		&_w {
+		}
+
+		&_regular {
+		}
+	}
+}
+.lots {
+
+	&__header {
 	}
 }
